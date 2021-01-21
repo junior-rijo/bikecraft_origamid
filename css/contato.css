@@ -1,0 +1,118 @@
+.interna_contato{
+    background: url(../img/bg-contato.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/*Orçamento*/
+.contato{
+    padding: 50px 0;
+}
+
+.contato h2{
+    color: #fec63e;
+    padding: 50px 0;
+}
+
+.contato h2:after{
+    background: #fec63e;
+}
+
+#form_contato{
+    padding-right: 60px;
+}
+
+#form_contato label{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+#form_contato input{
+    display: block;
+    width: 100%;
+    border: 4px solid #fec63e;
+    background: none;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#form_contato textarea{
+    display: block;
+    width: 100%;
+    border: 4px solid #fec63e;
+    background: none;
+
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#form_contato button{
+    padding: 10px 50px;
+    background: none;
+    margin-bottom: 15px;
+}
+.btn_contato:hover{
+    border: 1px solid #fec63e;;
+    border-radius: 12px;
+    color: #fec63e;
+    
+}
+
+.contato_dados{
+    color: #000000
+}
+
+.contato_dados h3{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #fec63e;
+    text-transform: uppercase;
+
+}
+.contato_dados span{
+    display: block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+.contato_dados span:nth-of-type(even){/*selecionando os span pares*/
+    margin-bottom: 30px;
+}
+
+
+.contato_dados ul{
+    margin-top: 20px;
+}
+
+.contato_dados ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contato_dados ul li a {
+    border: 3px solid #fec63e;
+    
+    display: block;
+    padding: 10px;
+}
+
+.contato_dados ul li a:hover{
+    border-color: #000000;
+    border-radius: 15px;
+    color: #000000;
+}
+
+
+.contato_dados ul li{
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding: 10px 15px;
+}
+
