@@ -37,16 +37,16 @@
 
   
         <section class="contato container">
-                <form class="grid-8" id="form_contato" action="">
+                <form class="grid-8 formphp" method="POST" id="form_contato" action="./enviar.php">
                     <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome">
+                    <input type="text" name="nome" id="nome" required>
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                     <label for="telefone" name="telefone" id="telefone">Telefone</label>
                     <input type="tel" name="telefone" id="telefone">
                     <label for="espec" id="espec">Especificações</label>
                     <textarea name="" id="" cols="50" rows="5"></textarea>
-                    <button class="btn btn_contato" type="submit">Enviar</button>
+                    <button id="enviar"class="btn btn_contato" type="submit">Enviar</button>
                 </form>
                 <div class="contato_dados grid-8">
                     <h3>Dados</h3>
@@ -109,7 +109,8 @@
         </div>
     </footer>
     <script src="./js/simple-slide.js"></script>
-	<script src="./js/simple-anime.js"></script>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/simple-form.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
