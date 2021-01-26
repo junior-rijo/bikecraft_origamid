@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/responsivo.css">
-    
+    <script>document.documentElement.classList.add("js");</script>
     <title>Bikcraft</title>
 </head>
 <body>
-    <script>document.documentElement.classList.add("js")</script>
     <header class="header">
         <div class="container">
             <a href="index.html" class="grid-4">
@@ -30,15 +29,15 @@
     </header>
     <section class="introducao">
         <div class="container">
-            <h1>Bicicletas Feitas a Mão</h1>
-            <blockquote class="quote-externo">
+            <h1 data-anime="400"class="fadeInDown" >Bicicletas Feitas a Mão</h1>
+            <blockquote data-anime="800" class="quote-externo fadeInDown">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non pellentesque ante. Nullam et pellentesque justo.</p>
                 <cite>WILIAM TTTT</cite>
             </blockquote>
-            <a href="produtos.html" class="btn">Orçamento</a>
+            <a data-anime="1200" href="produtos.html" class="btn">Orçamento</a>
         </div>
     </section>
-    <section class="produtos container">
+    <section class="produtos container" data-anime="1300">
         <h2 class="subtitulo">Produtos</h2>
         <ul class="produtos_lista">
             <li class="grid-1-3">
@@ -153,7 +152,8 @@
             </div>
         </div>
     </footer>
+	<script src="./js/simple-slide.js"></script>
+	<script src="./js/simple-anime.js"></script>
     <script src="./js/script.js"></script>
-    <script src="./js/simple-slide.js"></script>
 </body>
 </html>
